@@ -12,7 +12,6 @@ class Solution:
 
         final_string = ""
 
-
         for index, word in sorted_list:
             final_string += " " + word
 
