@@ -17,8 +17,7 @@ var fizzBuzz = function(n) {
         else {
             num = i.toString()
             final_array.push(num)
-        }
-        console.log(i)
-    }
+        };
+    };
     return final_array
 };
