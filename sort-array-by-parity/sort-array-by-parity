@@ -1,0 +1,3 @@
+var sortArrayByParity = function(nums) {
+    return nums.filter(elem=> elem % 2 == 0).concat(nums.filter(elem=> elem % 2 == 1))
+};
